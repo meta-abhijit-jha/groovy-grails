@@ -1,0 +1,8 @@
+package com.test.demo2
+
+class DogObjects {
+
+	static void main(args) {
+		Dogs dog1 = new Dogs()
+	}
+}

@@ -1,0 +1,9 @@
+package com.test.demo2
+
+class Toyota extends Cars{
+	int topSpeed
+	
+	def topSpeed() {
+		println "Top speed is ${topSpeed}"
+	}
+}

@@ -1,0 +1,10 @@
+package com.test.demo
+
+int method(String arg) {
+	return 1;
+}
+int method(Object arg) {
+	return 2;
+}
+def o = "Object";
+int result = method(o);

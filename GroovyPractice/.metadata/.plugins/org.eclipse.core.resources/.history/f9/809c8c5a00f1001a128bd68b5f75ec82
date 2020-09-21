@@ -1,0 +1,12 @@
+package com.test.demo
+
+def employee = [
+	'name': 'John',
+	'age': 24
+]
+
+println employee
+println employee.name
+println employee["name"]
+println employee.get('name')
+println employee.getAt('name')

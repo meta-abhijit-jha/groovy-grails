@@ -1,0 +1,9 @@
+package com.test.demo2
+
+class Car {
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.test.demo
+
+//Ranges: List of Sequential Values
+def range = 1..10
+println range

@@ -1,0 +1,38 @@
+package com.test.demo
+
+//Example1
+def str = "Hello"
+
+def myClosure = {
+	name -> println "${str} ${name}"
+}
+
+//Calling closure directly
+myClosure.call("Abhijit")
+
+def myMethod(clos) {
+	clos.call()
+	clos.call("Abhi")
+}
+
+//Calling closure by method
+myMethod(myClosure)
+
+//Example2
+def myClosure2 = {
+	a,b,c -> return (a + b + c)
+}
+
+println myClosure2.call(10, 2, 7)
+
+//Example3
+//.each(closure) it calls closure
+def myList = ["Apples", "Banana", "Grapes"]
+println myList.each { it }
+
+println myList.find { item -> item == "Apples" }
+println myList.find { item -> item == "Potato" }
+
+
+
+

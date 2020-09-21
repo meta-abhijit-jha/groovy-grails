@@ -1,0 +1,13 @@
+package helloworld
+
+class HelloController {
+
+	def index() {
+		def recipient = grailsApplication.config.getProperty('grails.profile')
+		render """
+			<h1>Hello Page</h1>
+			<a href="http://localhost:8080">Click Me</a>
+			<p>${recipient}</p>
+			"""
+	}
+}

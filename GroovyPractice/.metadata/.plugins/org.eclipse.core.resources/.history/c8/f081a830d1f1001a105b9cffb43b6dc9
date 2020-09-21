@@ -1,0 +1,7 @@
+package com.test.demo
+
+//Taking input from user
+println "What is your name?"
+println "Your name is ${System.in.newReader().readLine()}"
+
+println name

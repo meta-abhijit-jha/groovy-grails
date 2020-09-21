@@ -1,0 +1,13 @@
+package com.test.demo
+
+int method(String arg) {
+	return 1;
+}
+int method(Object arg) {
+	return 2;
+}
+
+//Groovy will run 1st function and Java will run second one
+Object o = "Object";
+int result = method(o);
+println result

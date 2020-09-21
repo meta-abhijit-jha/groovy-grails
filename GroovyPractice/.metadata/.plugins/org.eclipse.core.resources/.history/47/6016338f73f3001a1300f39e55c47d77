@@ -1,0 +1,32 @@
+package com.groovy.practice
+
+import java.sql.*
+import groovy.sql.Sql
+
+class DBConnectivity {
+	
+	void sqlVersion(sql) {
+		//Show version of MySQL
+		sql.eachRow('SELECT VERSION()') { row ->
+			println row[0]
+		}
+	}
+	
+	void createDB() {
+		
+	}
+
+	static void main(args) {
+		
+		DBConnectivity obj = new DBConnectivity()
+		
+		//Creating Connection with DB
+		def sql = Sql.newInstance('jdbc:mysql://localhost:3306/testdb?useSSL=false', 'root', '123456', 'com.mysql.jdbc.Driver')
+		
+		obj.sqlVersion(sql)
+		
+		//Closing Connection
+		sql.close()
+		
+	}
+}

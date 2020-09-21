@@ -1,0 +1,9 @@
+package com.test.demo
+
+File myFile = new File("writeFileExample.txt")
+
+myFile.write("Hello Writable")
+myFile<<"\nWriting Line 2"  //Append data
+myFile.text = "Line 3"
+
+println myFile.text

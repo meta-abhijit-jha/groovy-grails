@@ -1,0 +1,5 @@
+package com.test.demo
+
+print "Enter Name"
+
+//Taking input from user

@@ -1,0 +1,22 @@
+package com.test.demo
+
+//Reading file
+
+String filePath = "/home/abhijit/Documents/GroovyPractice/MyFirstGroovyProject/src/com/test/demo/fakeData.txt"
+File myFile = new File(filePath)
+
+//Reading content as String
+//println myFile.text
+
+//Collect lines into list
+//def list = myFile.collect { it }
+//or
+//def list = myFile.readLines()
+//println list
+
+//store file content in an array
+//def array = myFile as String[]
+//println array
+
+//reading file line by line
+myFile.eachLine { item, itemNo -> println item + " " + itemNo }

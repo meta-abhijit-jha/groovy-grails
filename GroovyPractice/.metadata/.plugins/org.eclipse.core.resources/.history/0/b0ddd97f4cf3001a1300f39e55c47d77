@@ -1,0 +1,20 @@
+package com.test.demo
+
+class Object {
+	
+	int a
+	String b
+	
+	int method(String arg) {
+		return 1;
+	}
+	int method(Object arg) {
+		return 2;
+	}
+
+	static void main(args) {
+		Object o = "Object"
+		int result = method(o)
+		println result
+	}
+}

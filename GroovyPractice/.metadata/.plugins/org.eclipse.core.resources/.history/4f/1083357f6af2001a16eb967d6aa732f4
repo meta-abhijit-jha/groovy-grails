@@ -1,0 +1,7 @@
+package com.test.demo
+
+def match = "Groovy" =~ "123"
+
+if(match) {
+	println match[0]
+}

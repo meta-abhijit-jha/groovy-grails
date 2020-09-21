@@ -1,0 +1,13 @@
+package com.test.demo
+
+def match = "Groovy" =~ "o"
+def i = 0
+
+if(match) {
+	while(match) {
+		println match[i]
+		i++
+	}
+} else {
+	println 'No match'
+}

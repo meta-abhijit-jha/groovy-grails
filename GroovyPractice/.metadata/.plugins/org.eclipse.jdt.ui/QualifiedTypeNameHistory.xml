@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="sun.awt.SunGraphicsCallback.PrintHeavyweightComponentsCallback"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="com.test.demo2.Animal"/>
+    <fullyQualifiedTypeName name="org.codehaus.groovy.transform.trait.Traits.Implemented"/>
+    <fullyQualifiedTypeName name="com.test.demo4.GroovyInterface"/>
+    <fullyQualifiedTypeName name="com.groovy.practice.DBConnectivity"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+</qualifiedTypeNameHistroy>

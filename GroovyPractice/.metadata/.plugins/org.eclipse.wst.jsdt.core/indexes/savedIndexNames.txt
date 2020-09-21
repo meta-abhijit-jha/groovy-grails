@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/abhijit/Documents/GroovyPractice/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3565873995.index
+1250719413.index
+854914182.index
+3213122783.index
+1686274598.index
+732399393.index

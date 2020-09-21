@@ -1,0 +1,11 @@
+package com.test.demo
+
+def name = ["Abhi", "Jeet", "Jha"]
+
+println name[1]
+println name.get(1)
+
+//Heterogeneous List
+def het = [1, 2, 3, ['A', 'B', 'C'], "Abhijit", 6]
+
+println het[3][1]

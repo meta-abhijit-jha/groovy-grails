@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;helloworld&apos;&#x0A;- Original project: &apos;helloworld&apos;&#x0A;- Original element: &apos;HelloService.groovy&apos;" description="Delete element" element1="grails-app/services/helloworld/HelloService.groovy" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1600070921609" subPackages="false" version="1.0"/>
+</session>

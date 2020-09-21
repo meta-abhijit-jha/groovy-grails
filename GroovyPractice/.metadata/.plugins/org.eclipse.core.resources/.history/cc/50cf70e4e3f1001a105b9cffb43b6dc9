@@ -1,0 +1,13 @@
+package com.test.demo
+
+class Fruits {
+	
+	private String fruitName
+	private String color
+	
+	
+
+	static void main(args) {
+		
+	}
+}

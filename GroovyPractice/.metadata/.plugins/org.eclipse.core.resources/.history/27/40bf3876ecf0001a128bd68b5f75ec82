@@ -1,0 +1,23 @@
+package com.test.demo
+
+def name = ["Abhi", "Jeet", "Jha"]
+
+println name[1]
+println name.get(1)
+
+//Heterogeneous List
+def het = [1, 2, 3, ['A', 'B', 'C'], "Abhijit", 6]
+
+println het[3][1]
+println het.get(3).get(1)
+
+println het[1..4]
+
+println het.contains("B")
+println het.get(3).contains("B")
+
+het.add(44)
+println het
+
+
+

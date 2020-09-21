@@ -1,0 +1,18 @@
+package helloworld
+
+import grails.gorm.transactions.Transactional
+
+@Transactional
+class HelloService {
+	
+	GrailsApplication grailsApplication
+
+//    def serviceMethod() {
+//		def recipient = grailsApplication.config.getProperty('grails.profile')
+//		return "Hello ${recipient}"
+//    }
+	
+	def abhi() {
+		return "....."
+	}
+}

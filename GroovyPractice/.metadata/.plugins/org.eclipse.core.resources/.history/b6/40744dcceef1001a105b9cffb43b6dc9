@@ -1,0 +1,17 @@
+package com.test.demo3
+
+//objects can't be created of this class
+abstract class Car {
+	
+	String name
+	String color
+	int model
+	
+	//concrete methods
+	def startEngine() {
+		println "Engine started for ${name}"
+	}
+	
+	//abstract methods have no definition
+	abstract def topSpeed()
+}

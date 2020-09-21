@@ -1,0 +1,10 @@
+package com.test.demo
+
+//Ranges: List of Sequential Values
+def range = 1..10
+//Will print 1..10 not the iteration
+println range
+
+for(i in range) {
+	println i
+}

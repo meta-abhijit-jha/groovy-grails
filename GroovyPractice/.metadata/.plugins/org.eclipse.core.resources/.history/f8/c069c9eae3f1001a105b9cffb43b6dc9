@@ -1,0 +1,21 @@
+package com.test.demo
+
+class Fruits {
+	
+	private String fruitName
+	private String fruitColor
+	
+	//setter
+	def setFruitName(String name) {
+		fruitName = name
+	}
+	
+	def setFruitColor(String color) {
+		fruitColor = color
+	}
+	
+	
+	static void main(args) {
+		
+	}
+}

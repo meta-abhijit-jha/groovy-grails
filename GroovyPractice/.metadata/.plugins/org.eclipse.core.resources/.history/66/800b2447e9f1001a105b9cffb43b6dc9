@@ -1,0 +1,11 @@
+package com.test.demo2
+
+class DogObjects {
+
+	static void main(args) {
+		Dogs dog1 = new Dogs()
+		
+		dog1.name = "Dog"
+		dog1.breed = "Pug"
+	}
+}

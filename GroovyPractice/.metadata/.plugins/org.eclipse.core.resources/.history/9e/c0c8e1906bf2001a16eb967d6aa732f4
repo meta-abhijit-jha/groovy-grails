@@ -1,0 +1,12 @@
+package com.test.demo
+
+def match = "Groovy" =~ "o"
+
+if(match) {
+	def i = 0
+	println match[0]
+	println match[1]
+	println match[2]
+} else {
+	println 'No match'
+}

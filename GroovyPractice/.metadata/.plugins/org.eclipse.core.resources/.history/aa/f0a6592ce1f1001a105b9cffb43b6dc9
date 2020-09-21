@@ -1,0 +1,8 @@
+package com.test.demo
+
+File myFile = new File("writeFileExample.txt")
+
+myFile.write("Hello Writable")
+myFile<<"Writing Line 2"
+
+println myFile.text

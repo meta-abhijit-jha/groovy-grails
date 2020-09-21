@@ -1,0 +1,14 @@
+package com.test.demo
+
+//Triple Single/Double quoted string can be used to write multi-line Strings
+
+def str = """jjbjbjbj
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+ffffffffffffffffffffffffffff"""
+
+println str[15]
+println str[-2]
+println str.indexOf("f")
+
+println str[0..8]
+println str[9..4]

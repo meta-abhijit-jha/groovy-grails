@@ -1,0 +1,9 @@
+package com.test.demo
+
+class ObjectUser {
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

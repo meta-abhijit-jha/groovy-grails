@@ -1,0 +1,7 @@
+package com.test.demo
+
+//Triple Single/Double quoted string can be used to write multi-line Strings
+
+println """jjbjbjbj
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+ffffffffffffffffffffffffffff"""

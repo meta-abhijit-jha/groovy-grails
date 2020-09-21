@@ -1,0 +1,15 @@
+package com.test.demo3
+
+abstract class Car {
+	
+	String name
+	String color
+	int model
+	
+	//concrete methods
+	def startEngine() {
+		println "Engine started for ${name}"
+	}	
+	
+	
+}

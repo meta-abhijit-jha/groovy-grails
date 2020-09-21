@@ -1,0 +1,42 @@
+package com.test.demo
+
+//Reading file
+
+String filePath = "/home/abhijit/Documents/GroovyPractice/MyFirstGroovyProject/src/com/test/demo/fakeData.txt"
+File myFile = new File(filePath)
+
+//Reading content as String
+//println myFile.text
+
+//Collect lines into list
+//def list = myFile.collect { it }
+//or
+//def list = myFile.readLines()
+//println list
+
+//store file content in an array
+//def array = myFile as String[]
+//println array
+
+//reading file line by line
+//myFile.eachLine {  item, itemNo ->
+//	println item + " Line number:" + itemNo
+//}
+
+//read using inbuilt reader
+//def line
+//myFile.withReader { reader ->
+//	while((line = reader.readLine()) != "Line C") {
+//		println line
+//	}
+//}
+
+//reading with new reader
+//newReader() opens an IO stream and then we can perform operations on it
+//But after its usage we should close the IO stream
+def outputFile = "fakeOutput.txt"
+def reader = myFile.newReader()
+
+new File(outputFile).append(reader)
+reader.close()
+

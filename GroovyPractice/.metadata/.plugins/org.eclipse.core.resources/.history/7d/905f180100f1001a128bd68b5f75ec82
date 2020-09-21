@@ -1,0 +1,6 @@
+package com.test.demo
+
+def employee = [
+	'name': 'John',
+	'age': 24
+]

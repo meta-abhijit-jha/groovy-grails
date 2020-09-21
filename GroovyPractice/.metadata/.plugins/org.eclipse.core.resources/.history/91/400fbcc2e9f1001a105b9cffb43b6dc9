@@ -1,0 +1,9 @@
+package com.test.demo2
+
+class Dogs extends Animal{
+	String dogName = "Rocky"
+	
+	def plays() {
+		println dogName + "plays"
+	}
+}
