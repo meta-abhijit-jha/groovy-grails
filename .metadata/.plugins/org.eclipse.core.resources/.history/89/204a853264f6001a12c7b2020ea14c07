@@ -1,0 +1,13 @@
+package com.abhijit
+
+//Domain Layer:
+//Contains Business Model
+//Grails applies object-relational mapping on all classes located in this directory
+
+class Student {
+	String firstName
+	String lastName
+
+    static constraints = {
+    }
+}

@@ -1,0 +1,7 @@
+package com.helloworld
+
+class Employee {
+	String firstname
+	String lastname
+	String email
+}

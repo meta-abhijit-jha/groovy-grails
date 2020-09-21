@@ -1,0 +1,12 @@
+package com.abhijit
+
+//Controller Layer
+//Handles request/response
+//Mapping is auto-defined in URLMapping file
+
+class StudentController {
+
+    def index() {
+		
+	}
+}

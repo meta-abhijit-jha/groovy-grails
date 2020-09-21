@@ -1,0 +1,14 @@
+package com.abhijit
+
+//Contains Business Logic
+//Grails create a Spring skeleton bean for each service
+
+import grails.gorm.transactions.Transactional
+
+@Transactional
+class StudentService {
+
+    def serviceMethod() {
+
+    }
+}

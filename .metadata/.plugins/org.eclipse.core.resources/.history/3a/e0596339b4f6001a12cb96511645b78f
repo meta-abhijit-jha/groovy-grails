@@ -1,0 +1,23 @@
+package com.helloworld
+
+class Employee {
+	String firstname
+	String lastname
+	String email
+	
+	static constraints = {
+		firstname()
+		lastname()
+		email()
+	}
+	
+	static mapping = {
+		table 'Employee'
+		
+		firstname column: 'firstname'
+		lastname column: 'lastname'
+		email column: 'email'
+	}
+	
+}
+

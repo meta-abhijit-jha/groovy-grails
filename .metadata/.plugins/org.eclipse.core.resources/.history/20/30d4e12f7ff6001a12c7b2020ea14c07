@@ -1,0 +1,26 @@
+package com.helloworld
+
+class EmployeeController {
+
+    def index() { 
+		def p = Employee.get(1)
+		render "done"
+	}
+	
+	def create() {
+		def p = new Employee(id: 1, firstname: "Abhi", lastname: "Jha", email: "abhijeetjha0@gmail.com")
+		p.save()
+	}
+	
+	def update() {
+		def p = Employee.get(1)
+		p.firstname = "Bob"
+		p.save()
+		render p
+	}
+	
+	def delete() {
+		def p = Employee.get(1)
+		p.delete()
+	}
+}

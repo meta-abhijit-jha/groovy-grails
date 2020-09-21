@@ -1,0 +1,6 @@
+package com.abhijit
+
+class StudentController {
+
+    def index() { }
+}

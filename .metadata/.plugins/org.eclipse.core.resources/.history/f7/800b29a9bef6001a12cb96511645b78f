@@ -1,0 +1,28 @@
+package com.helloworld
+
+import grails.gorm.transactions.Transactional
+
+@Transactional
+class EmployeeService {
+	
+	def get(id) {
+		Employee.get(id)
+	}
+
+	def list() {
+		Employee.list()
+	}
+
+	def save(employee) {
+		employee.save()
+	}
+
+	def delete(id) {
+		Employee.get(id).delete()
+	}
+	
+	def update(id) {
+		Employee.get(id).update()
+	}
+}
+

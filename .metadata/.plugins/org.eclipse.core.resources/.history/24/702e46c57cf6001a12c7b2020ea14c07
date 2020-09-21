@@ -1,0 +1,7 @@
+package com.helloworld
+
+class Employee {
+
+    static constraints = {
+    }
+}

@@ -1,0 +1,9 @@
+package com.helloworld
+
+class Employee {
+	String FIRST_NAME
+	String LAST_NAME
+	int AGE
+	String SEX
+	float INCOME
+}

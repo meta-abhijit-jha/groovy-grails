@@ -1,0 +1,7 @@
+package com.abhijit
+
+class Student {
+
+    static constraints = {
+    }
+}

@@ -1,0 +1,41 @@
+package com.helloworld
+import groovy.sql.Sql
+
+class EmployeeController {
+	def dataSource
+
+    def index() { 
+		def a = Employee.get(1)
+		render a.firstname + a.id
+	}
+	
+	def create() {
+		def p = new Employee(firstname: "Abhi", lastname: "Jha", email: "abhijeetjha0@gmail.com")
+		p.save()
+	}
+	
+	def update() {
+		def p = Employee.get(1)
+		p.firstname = "Bob"
+		p.save()
+		render p
+	}
+	
+	def delete() {
+		def p = Employee.get(1)
+		p.delete()
+	}
+	
+	def runQuery(){
+		def sql = new Sql(dataSource)
+		sql.execute "INSERT INTO Employee VALUES('Abhi', 'Jha', 'abhijeetjha0@gmail.com')"
+
+		rows.each { row ->
+			log.debug row.firstname
+		}
+
+		sql.close()
+
+		render "Query Executed"
+	}
+}

@@ -1,0 +1,11 @@
+package com.helloworld
+
+import grails.gorm.transactions.Transactional
+
+@Transactional
+class EmployeeService {
+
+    def serviceMethod() {
+
+    }
+}

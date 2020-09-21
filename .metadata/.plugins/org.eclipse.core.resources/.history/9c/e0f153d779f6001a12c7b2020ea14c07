@@ -1,0 +1,41 @@
+package com.abhijit
+
+//Controller Layer
+//Handles request/response
+//Mapping is auto-defined for each method in this class
+
+class StudentController {
+
+	//Instance of StudentService by convention
+	def studentService
+
+	//Accessible on http://localhost:8080/student/show/<id number>
+	def show(int id) {
+		respond studentService.get(id)
+	}
+
+	//Accessible on http://localhost:8080/student
+	//or
+	//Accessible on http://localhost:8080/student/index
+	def index() {
+		respond studentService.list()
+	}
+	
+	def save(Student student) {
+		studentService.save(student)
+		redirect action:"index", method: "GET"
+	}
+	
+	//Accessible on http://localhost:8080/student/delete/<id number>
+	def delete(int id) {
+		studentService.delete(id)
+		redirect action:"index", method:"GET"
+	}
+
+	//Accessible on http://localhost:8080/student/create
+	def create() {
+		respond new Student(params)
+	}
+
+
+}

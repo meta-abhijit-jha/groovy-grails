@@ -1,0 +1,9 @@
+package com.abhijit
+
+class Student {
+	def firstName
+	def lastName
+
+    static constraints = {
+    }
+}
